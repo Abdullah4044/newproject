@@ -1,0 +1,403 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: rgb(255, 255, 255);
+    font-family: 'Montserrat', sans-serif;
+}
+.main-box{
+    width: 85%;
+    display: inline-block;
+    margin: 0;
+}
+.main-box .navbar-button {
+    margin-left: 100px;
+}
+
+
+.navbar ul{
+
+    list-style: none;
+    background: rgba(255, 255, 255, 0.933);
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+.navbar li{
+    display: inline-block;
+
+}
+.navbar a{
+    text-decoration: none;
+    color: rgba(87, 87, 87, 0.877);
+    width: 100%;
+    display:block ;
+    padding: 23px 32px 11px;
+    font-size: 13px;
+    font-weight: bold;
+    
+}
+.lines{
+    width: 10px;
+    height: 10px;
+    display: inline;
+    margin-left: 50px;
+    font-size: 10px;
+}
+.top-img .para {
+   
+    color: rgb(255, 255, 255);
+}
+
+
+.top-img .para_2{
+    color: white; 
+
+}
+.bottom-img{
+    width: 85%;
+
+}
+
+
+
+.images{
+    width: 100%;
+    height: 100px;
+    margin-top: 800px;
+}
+button{
+    background: rgb(49, 70, 255);
+    color: rgb(255, 255, 255);
+    padding: 11px 22px;
+    margin-top: 27px;
+    border: none;
+    margin-left: 20px;
+    border-radius: 2px;
+}
+.sign-up-main{
+    background-color: blueviolet; 
+    height: 300px;
+    margin-top: 84px;
+}
+.sign-up-main .sign-up-img .innerbox {
+    margin-right:50px; 
+    margin-top: 60px;
+
+}
+.innermain{
+    width: 85%;
+    margin: 0 auto;
+}
+.sign-up-text {
+    text-align: center;
+    color: white;
+    clear: both;
+    overflow: hidden;
+    margin-bottom: 35px;
+}
+.top-img{
+    padding-top: 240px;
+}
+.innerbox {
+    display: inline-block;
+    width: calc(calc(100% - 100px)/2);
+}
+.innermain .sign-up-text .innerbox{
+    float: right;
+    margin-top: 55px;
+}
+.conatiner,
+.top-img , .inner-img{
+    width:85%;
+    margin: 0 auto;
+
+}
+.container .cards{
+    width: calc(calc(100% - 35px)/2);
+    display: inline-block;
+    text-align: center;
+}
+.container .cards:first-child {
+    margin-right: 30px;
+}
+
+.container .cards_main{
+    width: 85%;
+    margin: 0 auto;
+    padding-top: 70px;
+    padding-bottom:20px;
+}
+.main-inner .inner-cards{
+    width: 85%;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+.inner-img{
+    width: 50%;
+    display: inline-block;
+}
+.inner-cards .inner-para{
+    width: calc(calc(100% - 83px)/2);
+    display: inline-block;
+    padding: 10px;
+}
+
+
+.main-top-img{
+    background-image: url(image/8621-pumpkin-white-ripe-dark-4k.jpg);
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.contact-main{
+    background: blueviolet;
+    font-size: 25px;
+    color: rgb(41 255 41);
+    margin-top: 50px;
+    
+}
+.contact-list{
+    width: 85%;
+    margin:0 auto;
+    display: flex;
+}
+
+.number{
+    display: inline-block;
+    font-size: 20px;
+}
+.Contactform{
+    width: 80%;
+    padding-right: 70px;
+    font-size: 23px;
+    text-align: center;
+    padding-bottom: 15px;
+    
+}
+.contact-main  :hover .contact-box input{
+    border-color: rgb(255, 0, 0);
+
+}
+.contactpara{
+    font-size: small;
+}
+.contact-box input {
+    padding: 10px;
+    width: 46%;
+    margin-bottom: 10px;
+    border: 2px solid white;
+    background: transparent;
+    border-radius: 3px;
+    color: white;
+}
+.contact-box input::placeholder {
+    color: rgb(255, 255, 255);
+}
+
+.contact-box textarea{
+    border: 2px solid white;
+    background: transparent;
+    color: #fff;
+    font-size: 15px;
+    width: 98%;
+}
+.contact-box textarea placeholder{
+    color: white;
+}
+.address{
+    width: 20%;
+    padding-top: 20px;
+}
+.WhatsApp-number{
+    font-size: 18px;
+    
+}
+.submit-button button{
+    background-color: rgb(41, 255, 41);
+    display: inline-block;
+    margin: 0;
+    width: 60%;
+}
+.submit-button{
+    text-align: center;
+}
+.footer-main{
+    background-color: rgb(67, 0, 129);
+    text-align: center;
+}
+.main-width{
+    width: 85%;
+    margin: 0 auto;
+    display: inline-block;
+}
+.footer-inner{
+    color: #fff;
+}
+.footer-address{
+    width: calc(calc(100% - 100px)/5);
+    display: inline-block;
+    margin: 0 auto;
+    vertical-align: text-top;
+    font-size: 14px;
+}
+.address-color{
+    color: rgb(104, 255, 58);
+
+}
+.Navbar {
+    background-color: #46ACC2;
+    display: flex;
+    padding: 16px;
+    font-family: sans-serif;
+    color: white;
+  }
+  
+  .Navbar__Link {
+    padding-right: 8px;
+  }
+  
+  .Navbar__Items {
+    display: flex;
+  }
+  
+  .Navbar__Items--right {
+    margin-left:auto;
+  }
+  
+  .Navbar__Link-toggle {
+    display: none;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .Navbar__Items,
+    .Navbar {
+      flex-direction: column;
+    }
+      
+  .Navbar__Items {
+      display:none;
+    }
+      
+  .Navbar__Items--right {
+      margin-left:0;
+    }
+      
+  .Navbar__ToggleShow {
+      display: flex;
+    }
+      
+  .Navbar__Link-toggle {
+      align-self: flex-end;
+      display: initial;
+      position: absolute;
+      cursor: pointer;
+     } 
+  }
+@media (min-width:300px) and (max-width: 500px)   {
+    .cards_main, .sign-up-main .innermain, .main-inner .inner-cards {
+        width: 100% !important;
+    }
+    .cards_main .cards{
+        width: 100%;
+        display: block;
+        margin-bottom: 50px;
+    }
+    .main-inner .inner-img{
+        display: block;
+        width: 100%;
+    }
+    .main-inner .inner-para{
+        text-align: center;
+        width: auto;
+    }
+    .innerbox {
+        width: 100%;
+        color: rgb(255, 255, 255);
+        text-align: center;
+        
+    }
+    .main-inner{
+        padding: 10px;
+    }
+    .sign-up-main .innermain .sign-up-text .innerbox{
+        display:inline-flex ;
+    }
+    .sign-up-main{
+        height: auto;
+    }
+    .container{
+        padding: 10px;
+    }
+    .contact-main{
+        width: 100%;
+        height: auto;
+    }
+    .contact-box input{
+        width: 100%;
+    }
+    .main-top-img{
+        width: 100%;
+        height: auto;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .top-img{
+        width: 100%;
+    }
+    
+    .inner-para p{
+        text-align: center;
+    }
+    .top-img{
+        padding: 0;
+    }
+    .sign-up-img img {
+        width: 100%;
+
+
+    }
+    .contact-list{
+        width: auto;
+        display: block;
+        text-align: center;
+        background-color: blueviolet;
+    }
+    .Contactform{
+        padding: 0;
+    }
+    .contact-box textarea{
+        width: 100%;
+        padding: 0;
+        padding-right: 20px;
+    }
+    .contact-box{
+        width: 100%;
+        text-align: center;
+    }
+    .footer-main{
+        width: 100%;
+        display: inline-block;
+    }
+    .main-width{
+        width: 100%;
+    }
+    .navbar{
+        padding: 6px 16px;
+    }
+    .lines{
+        display: none;
+    }
+    .footer-address{
+        width: 100%;
+    }
+    .innermain{
+        width: 100%;
+        padding: 0;
+    }
+    .address{
+        width: 100%;
+    }
+}
+@media (min-width:501px) and (max-width: 720px)
